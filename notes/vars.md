@@ -33,3 +33,7 @@ in my source code
 * an identifier which starts with `_` is usually private.  This means that if you didn't define it, you probably aren't meant to use it because it is internal to the library, more on this later. 
     * _coders_: python has no way of declaring something private, again use the convention
 
+## Advanced topics
+* naming conventions might fall here
+* unpacking values and commas `x,y = 2,3`
+* chaining equals signs `screensize = w, h = 640, 480`

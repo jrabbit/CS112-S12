@@ -13,6 +13,20 @@ These should just be printed as one giant file when complete.
      * [Numbers/Booleans](https://github.com/zego5360/CS112-S12/blob/master/notes/numbers.md)
      * [Strings](https://github.com/zego5360/CS112-S12/blob/master/notes/strings.md)
  * [Variables](https://github.com/zego5360/CS112-S12/blob/master/notes/vars.md)
+ * Operators (to copy)
+ * Conditionals
+     * while
+     * if
+     * break, continue, pass
+ * lists, tuples
+ * for loops
+ * [Functions](https://github.com/zego5360/CS112-S12/blob/master/notes/funcs.md)
+ * dictionaries
+ * file input/parsing
+ * nested for loops
+ * objects
+ * inheritence
+ * creating modules
  
 
 ## Advanced (should be covered)
@@ -22,8 +36,11 @@ I would like to teach an "advanced section" (optional) as a sort of informal cod
  * metaclasses
  * design patterns
  * opengl
+ * state machines
+ * menus
 
 ## Misc Thoughts
  * game design should probably never be covered really
  * demonstrate whitespace and typo errors early.  They are the most common and they need to be debugged first.
  * have some homework assignments on debugging.  Or at least a quick and easy "bonus points" debugging assignments
+ * should pickle be taught at some point to save game objects/state?

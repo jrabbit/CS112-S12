@@ -9,7 +9,7 @@
    * normally, this isn't an issue unless you add millions of strings together one at letter at a time
 
 ## Ways to Create a String:
-`python
+```python
 # single quotes
 'To be or not to be'
 
@@ -22,7 +22,7 @@ You can write this with either triple " or ', it doesn't matter.  But
 by far the coolest part is that you can continue writing this string
 on multiple lines and it doesn't care!!!
 """ 
-`
+```
 
 ## Escaping and Special characters in strings:
 Let's say you want to have a string which has the following sentence.
@@ -50,10 +50,11 @@ To get around this, there are escape sequences.  Each sequence starts with the e
 * certain characters mean specific things
    * `\n` means newline
    * `\t` means tab
-* to have a single backslash, use `\\`
+* to have a single backslash, use ` \\ `
 
 ## Raw strings:
 * this rarely comes up, but for things like filenames in windows, you can make a raw string which doesn't use escape sequences.  They start with `r` or `R`
+
 ```python
 >>> r"Newlines are created with \n"
 'Newlines are created with \\n'
