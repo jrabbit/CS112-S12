@@ -3,7 +3,7 @@
 Eventually these notes should be migrated to the course wiki and kept updated there.  Alternatively, they should just be "hidden" until after a course happens.  Each lecture could have the notes available ahead of time in addition to any readings.
 
 
-[Getting the course ready](https://github.com/zego5360/CS112-S12/notes/prep.md)
+[Getting the course ready](https://github.com/zego5360/CS112-S12/blob/master/notes/prep.md)
 
 ## Topics (in relative order)
 These should just be printed as one giant file when complete.
