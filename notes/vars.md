@@ -9,7 +9,7 @@ Now that there is data, there needs to be a way to store it and get to it. There
 ## Using variables
 You can use variables to store any python object (everything, including numbers is an object).  
 
-``python
+```python
 >>> i = 5
 >>> print i
 5
@@ -21,7 +21,7 @@ in my source code'''
 >>> print s
 this is a multiline string
 in my source code
-``
+```
 
 ## naming conventions
 * _coders_:  other languages use things like toString, or myDocumentObject, python as a rule prefers `_` or as one word
