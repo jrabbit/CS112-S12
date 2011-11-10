@@ -8,7 +8,11 @@ Eventually these notes should be migrated to the course wiki and kept updated th
 ## Topics (in relative order)
 These should just be printed as one giant file when complete.
 
-
+ * [Day One][]
+ * [Setting Up Your Environment][]
+ * [Getting Started][]
+ * Datatypes
+     * [booleans][]
 
 
 ## Advanced (should be covered)
