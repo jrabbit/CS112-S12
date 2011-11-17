@@ -1,3 +1,4 @@
+=========================
 Lecture Notes
 =========================
 
@@ -5,46 +6,52 @@ To better conincide with homework, I am listing course days by Day
 
 Basic Course:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
- * Day 1 [1.W] (1/25):  `Introduction <./day1.html>`_
- * Day 2 [2.M] (1/30):  `Python <./day2.html>`_
- * Day 3 [2.W] (2/1):  `Datatypes and Variables <./day3.html>`_
- * Day 4 [3.M] (2/6):  `... <./day4.html>`_ (last day to add people to independent study)
- * 
+ * Day 1 [0.W] (1/25):  `Introduction <./day1.html>`_
+ * Day 2 [1.M] (1/30):  `Python <./day2.html>`_
+ * Day 3 [1.W] (2/1):  `Datatypes and Variables <./day3.html>`_
+ * Day 4 [2.M] (2/6):  `If and While <./day4.html>`_ (last day to add people to independent study 2/7)
+ * Day 5 [2.W] (2/8):  `For and Lists <./day5.html>`_
+ * Day 6 [3.M] (2/13): 
+ * Day 7 [3.W] (2/15): 
+ * Day 8 [4.M] (2/20): 
+ * Day 9 [4.W] (2/22): 
+ * Day 10 [5.M] (2/27):
+ * Day 11 [5.W] (2/29):
+ * Day 12 [6.M] (3/5):
+ * Day 13 [6.W] (3/7):  (midterm self eval)
+ * Day 14 [7.M] (3/12):
+ * Day 15 [7.W] (3/14):
+ * *Spring Break*
+ * Day 16 [8.M] (3/26):
+ * Day 17 [8.W] (3/28):
+ * Day 18 [9.M] (4/2):
+ * XXX XX [9.W] (4/4):  *Advising day, no class*
+ * Day 19 [10.M] (4/9):
+ * Day 20 [10.W] (4/11):
+ * Day 21 [11.M] (4/16): (last drop with 'w')
+ * Day 22 [11.W] (4/18):
+ * Day 23 [12.M] (4/23):
+ * Day 24 [12.W] (4/25):
+ * Day 25 [13.M] (4/30):
+ * Day 26 [13.W] (5/2):
+
+
 
 Advanced Course:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
- * Adv 1 [1.F] (1/27):  `Introduction and Setup Workshop <./adv1.html>`_
- * Adv 2 [2.F] (2/3):  `Advanced strings, variables <./adv2.html>`_
+ * Adv 1 [0.F] (1/27):  `Introduction and Setup Workshop <./adv1.html>`_
+ * Adv 2 [1.F] (2/3):  `Advanced strings, variables <./adv2.html>`_
+ * Adv 3 [2.F] (2/10):
+ * Adv 4 [3.F] (2/17):
+ * Adv 5 [4.F] (2/24):
+ * Adv 6 [5.F] (3/2):
+ * Adv 7 [6.F] (3/9):
+ * Adv 8 [7.F] (3/16):
+ * *Spring Break*
+ * Adv 9 [8.F] (3/30):
+ * Adv 10 [9.F] (4/6):
+ * Adv 11 [10.F] (4/13):
+ * Adv 12 [11.F] (4/20):
+ * Adv 13 [12.F] (4/27):
+ * Adv 13 [13.F] (5/4): 
 
-| Feb 7 (Tue)    Course add/drop period ends (Hampshire and Five College
-| Feb 15 (Wed)   January term evaluations
-| Feb 16 (Thu)   Advising day - no classes
-| Feb 16 (Thu)   Division II filing for 4th semester students
-| Feb 16 (Thu)   Division II pass forms for Fall 2012 Div III completion
-| Feb 16 (Thu)   Division III faculty progress reports for Spring 2012 completion
-| Feb 22 (Wed)   Division III contract filing for Fall 2012 completion
-| Mar 7 (Wed)    Mid-semester self evaluations for Fall 2011 and Spring 2012 entrants
-| Mar 8 (Thu)    Hampshire Exchange Programs Application Deadline (GEO)
-| Mar 8 (Thu)    Jan Term Field Courses Application Deadline (GEO)
-| Mar 14 (Wed)   Mid-semester faculty evaluations for Fall 2011 and Spring 2012 entrants
-| Mar 17 (Sat) - Mar 25 (Sun)    Spring break - no classes
-| Mar 30 (Fri)   Division II and III preliminary request period ends
-| Apr 2 (Mon) - Apr 6 (Fri)  Advising Week
-| Apr 4 (Wed)    Advising day - no classes
-| Apr 9 (Mon)    Fall Hampshire course preregistration begins
-| Apr 9 (Mon)    Five College course request period begins
-| Apr 13 (Fri)   Enrollment notification deadline
-| Apr 16 (Mon)   Student evaluations of courses available
-| Apr 16 (Mon)   Last day to drop classes with "w"
-| Apr 22 (Sun)   Five College course request period ends
-| May 4 (Fri)    Last day of classes
-| May 4 (Fri)    Division III pass forms due (all work presented and completed)
-| May 7 (Mon)    Faculy course completion summaries for Spring 2012 classes
-| May 8 (Tue) - May 11 (Fri)     Division I and II Progress Review
-| May 14 (Mon)   Spring term grades for Five College students
-| May 14 (Mon)   Division III evaluations
-| May 14 (Mon) - May 18 (Fri)    Faculty evaluation period
-| May 19 (Sat)   Commencement
-| May 20 (Sun)   Houses close 10 a.m.
-| Jun 15 (Fri)   Course evaluations for all students
-| Jun 30 (Sat)   Division I and II evaluations for Spring 2012 completions
