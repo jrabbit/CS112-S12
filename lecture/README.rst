@@ -3,13 +3,18 @@ Lecture Notes
 
 To better conincide with homework, I am listing course days by Day 
 
- * `Day 1 [1.W] (1/25):  Introduction <./day1.html>`_
- * Adv 1 [1.F] (1/27):  Introduction and Setup Workshop
- * Day 2 [2.M] (1/30):  Python 
- * Day 3 [2.W] (2/1):  Datatypes and Variables
- * Adv 3 [2.F] (2/3):  Advanced strings, variables 
- * Day 4 [3.M] (2/6):  
+Basic Course:
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Day 1 [1.W] (1/25):  `Introduction <./day1.html>`_
+ * Day 2 [2.M] (1/30):  `Python <./day2.html>`_
+ * Day 3 [2.W] (2/1):  `Datatypes and Variables <./day3.html>`_
+ * Day 4 [3.M] (2/6):  `... <./day4.html>`_ (last day to add people to independent study)
+ * 
 
+Advanced Course:
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Adv 1 [1.F] (1/27):  `Introduction and Setup Workshop <./adv1.html>`_
+ * Adv 2 [2.F] (2/3):  `Advanced strings, variables <./adv2.html>`_
 
 | Feb 7 (Tue)    Course add/drop period ends (Hampshire and Five College
 | Feb 15 (Wed)   January term evaluations

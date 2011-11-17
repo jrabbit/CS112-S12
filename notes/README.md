@@ -44,3 +44,9 @@ I would like to teach an "advanced section" (optional) as a sort of informal cod
  * demonstrate whitespace and typo errors early.  They are the most common and they need to be debugged first.
  * have some homework assignments on debugging.  Or at least a quick and easy "bonus points" debugging assignments
  * should pickle be taught at some point to save game objects/state?
+
+> 26 classes
+
+## Independent Study
+* Advanced Topics
+* Game stuff
