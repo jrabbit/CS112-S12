@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<title>Datatypes and Variables</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="datatypes-and-variables">
+<h1 class="title">Datatypes and Variables</h1>
+
+<div class="section" id="day-3-1-w-2-1">
+<h1>Day 3 [1.W] (2/1)</h1>
+<div class="section" id="data">
+<h2>Data</h2>
+<blockquote>
+<ul>
+<li><p class="first">Just like before when we printed things, those</p>
+</li>
+<li><dl class="first docutils">
+<dt>Basic types</dt>
+<dd><ul class="first last simple">
+<li>numbers</li>
+<li>booleans</li>
+<li>strings</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">we will see others like lists, dictionaries, and objects later</p>
+</li>
+</ul>
+</blockquote>
+</div>
+</div>
+<div class="section" id="integers">
+<h1>Integers</h1>
+<blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>Integers</dt>
+<dd><ul class="first last simple">
+<li>integers.  positive/negative whole numbers</li>
+<li>2, -3, 0</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Longs:  really really big integers.</dt>
+<dd><ul class="first last simple">
+<li>1000000000000000000000000000000000000000000000000L</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">python should convert between these two types automatically if your integers get too big</p>
+</li>
+<li><p class="first">Longs end in a &quot;L&quot;, don't worry about it if you see one</p>
+</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="floats">
+<h1>Floats</h1>
+<ul>
+<li><dl class="first docutils">
+<dt>A number with a decimal</dt>
+<dd><ul class="first last simple">
+<li>3.5, -0.23</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>called floats because of floating decimal points</dt>
+<dd><ul class="first last simple">
+<li>_coders_ actually a double</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>can also be written in scientific notation</dt>
+<dd><ul class="first last simple">
+<li>-5.23E-4</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="operators">
+<h1>Operators</h1>
+<blockquote>
+<ul class="simple">
+<li><tt class="docutils literal">+</tt>, <tt class="docutils literal">-</tt>, <tt class="docutils literal">*</tt>, <tt class="docutils literal">/ ``, ``%</tt>, <tt class="docutils literal">**</tt></li>
+</ul>
+</blockquote>
+<p>Example</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">./lecture/day3.rst</tt>, line 41)</p>
+Unexpected indentation.</div>
+<pre class="literal-block">
+&gt;&gt;&gt; 3 / 2
+1
+&gt;&gt;&gt; 3 / 2.0
+1.5
+</pre>
+</div>
+<div class="section" id="converting">
+<h1>Converting</h1>
+<blockquote>
+<ul class="simple">
+<li><tt class="docutils literal">int()</tt> and <tt class="docutils literal">float()</tt></li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="booleans">
+<h1>Booleans</h1>
+<ul class="simple">
+<li>True or False</li>
+</ul>
+<div class="section" id="variables">
+<h2>Variables</h2>
+<p>Now that there is data, there needs to be a way to store it and get to it. There needs to be a way to pass information you get to other parts of your program.  Creating variables couldn't be easier, you simply give them a name.  This is refered to as an &quot;identifier&quot;, it is what you use to identify part of your code.</p>
+<ul class="simple">
+<li>valid identifiers can start with <cite>_</cite> or a letter</li>
+<li>the rest can be a <cite>_</cite>, a letter, or a number</li>
+<li>valid names: <cite>i</cite>, <cite>myName</cite>, <cite>string2int</cite>, <cite>__ignoreMe</cite>, <cite>a23_32</cite></li>
+<li>invalid names: <cite>99problems</cite>, <cite>my name</cite>, <cite>bad-name</cite></li>
+</ul>
+</div>
+</div>
+<div class="section" id="using-variables">
+<h1>Using variables</h1>
+<p>You can use variables to store any python object (everything, including numbers is an object).</p>
+<dl class="docutils">
+<dt>::</dt>
+<dd><pre class="first last doctest-block">
+&gt;&gt;&gt; i = 5
+&gt;&gt;&gt; print i
+5
+&gt;&gt;&gt; i = i + 1
+&gt;&gt;&gt; print i
+6
+</pre>
+</dd>
+</dl>
+<dl class="docutils">
+<dt>::</dt>
+<dd><pre class="first last doctest-block">
+&gt;&gt;&gt; w,h = 3,4
+&gt;&gt;&gt; print &quot;Area is:&quot;, w * h
+12
+&gt;&gt;&gt; print &quot;Perimeter is:&quot;, w + w + h + h
+14
+</pre>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line">Above is what is known as unpacking</div>
+</div>
+<div class="section" id="reading-input-and-strings">
+<h2>Reading Input and Strings</h2>
+<p>The other type of data we have already used is strings, the things in the double quotes.  You can think of strings as</p>
+</div>
+</div>
+<div class="section" id="strings">
+<h1>Strings</h1>
+<blockquote>
+<ul>
+<li><p class="first">strings are a &quot;sequence of characters&quot; (best definition I could find)</p>
+</li>
+<li><dl class="first docutils">
+<dt>A character is a single letter, number, symbol</dt>
+<dd><ul class="first last simple">
+<li>like 'a', '4', '!', ' ',</li>
+<li>anything you can create with &quot;one key press&quot;</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</blockquote>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">./lecture/day3.rst</tt>, line 97)</p>
+Block quote ends without a blank line; unexpected unindent.</div>
+<ul>
+<li><dl class="first docutils">
+<dt>Strings are immutable</dt>
+<dd><ul class="first last simple">
+<li>once you create a string you cannot change it</li>
+<li>joining it with other strings or taking off chunks simply creates new a string</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">you can create using single or double quotes, though double are usually preferred</p>
+</li>
+</ul>
+</div>
+<div class="section" id="input">
+<h1>Input</h1>
+<blockquote>
+<ul>
+<li><p class="first">input from the user with &quot;raw_input(prompt)&quot;</p>
+</li>
+<li><dl class="first docutils">
+<dt>Ex 1: hello name</dt>
+<dd><ul class="first last simple">
+<li><a class="reference external" href="d3ex1.py">see example 1</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>EX 2: getting some numbers and doing a couple of equations</dt>
+<dd><ul class="first last">
+<li><p class="first"><a class="reference external" href="d3ex2.py">see example 2</a></p>
+</li>
+<li><dl class="first docutils">
+<dt>explain string substitution</dt>
+<dd><ul class="first last simple">
+<li>there is a lot more on this subject, but for debuging it can't be beat</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">EX 3: printing dyamind
+* <a class="reference external" href="d3ex3.py">see example 3</a></p>
+</li>
+</ul>
+</blockquote>
+</div>
+</div>
+</body>
+</html>
