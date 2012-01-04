@@ -44,7 +44,7 @@ Logic
    * a == b
    * s != ""
  * and, or, not
-   * between, a => bot and a <= top
+   * between, ``a => bot and a <= top``
    * even and less than 100
        i % 2 == 0 and i < 100
 

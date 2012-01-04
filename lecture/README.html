@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<meta name="generator" content="Docutils 0.6: http://docutils.sourceforge.net/" />
 <title>Lecture Notes</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Id: $Id: html4css1.css 5951 2009-05-18 18:03:10Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -46,10 +46,6 @@ blockquote.epigraph {
 
 dl.docutils dd {
   margin-bottom: 0.5em }
-
-object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
-  overflow: hidden;
-}
 
 /* Uncomment (and remove this text!) to get bold-faced definition list terms
 dl.docutils dt {
@@ -161,21 +157,15 @@ h2.subtitle {
 hr.docutils {
   width: 75% }
 
-img.align-left, .figure.align-left, object.align-left {
+img.align-left, .figure.align-left{
   clear: left ;
   float: left ;
   margin-right: 1em }
 
-img.align-right, .figure.align-right, object.align-right {
+img.align-right, .figure.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em }
-
-img.align-center, .figure.align-center, object.align-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .align-left {
   text-align: left }
@@ -189,7 +179,7 @@ img.align-center, .figure.align-center, object.align-center {
 
 /* reset inner alignment in figures */
 div.align-right {
-  text-align: inherit }
+  text-align: left }
 
 /* div.align-center * { */
 /*   text-align: left } */
@@ -249,7 +239,7 @@ pre.address {
   margin-top: 0 ;
   font: inherit }
 
-pre.literal-block, pre.doctest-block, pre.math {
+pre.literal-block, pre.doctest-block {
   margin-left: 2em ;
   margin-right: 2em }
 
@@ -322,34 +312,68 @@ ul.auto-toc {
 <h1>Basic Course:</h1>
 <blockquote>
 <ul class="simple">
-<li>Day 1 [0.W] (1/25):  <a class="reference external" href="./day1.html">Introduction</a></li>
-<li>Day 2 [1.M] (1/30):  <a class="reference external" href="./day2.html">Python</a></li>
-<li>Day 3 [1.W] (2/1):  <a class="reference external" href="./day3.html">Datatypes and Variables</a></li>
-<li>Day 4 [2.M] (2/6):  <a class="reference external" href="./day4.html">If and While</a> (last day to add people to independent study 2/7)</li>
-<li>Day 5 [2.W] (2/8):  <a class="reference external" href="./day5.html">For and Lists</a></li>
-<li>Day 6 [3.M] (2/13):</li>
-<li>Day 7 [3.W] (2/15):</li>
-<li>Day 8 [4.M] (2/20):</li>
-<li>Day 9 [4.W] (2/22):</li>
-<li>Day 10 [5.M] (2/27):</li>
-<li>Day 11 [5.W] (2/29):</li>
-<li>Day 12 [6.M] (3/5):</li>
-<li>Day 13 [6.W] (3/7):  (midterm self eval)</li>
-<li>Day 14 [7.M] (3/12):</li>
-<li>Day 15 [7.W] (3/14):</li>
+<li>Day 1 [0.W] (1/25):  <cite>Introduction</cite></li>
+<li>Day 2 [1.M] (1/30):  <cite>Python</cite></li>
+<li>Day 3 [1.W] (2/1):   <a href="#id1"><span class="problematic" id="id2">`Datatypes and Variables`_</span></a></li>
+<li>Day 4 [2.M] (2/6):   <cite>If and While</cite> (last day to add people to independent study 2/7)</li>
+<li>Day 5 [2.W] (2/8):   <cite>For and Lists</cite></li>
+<li>Day 6 [3.M] (2/13):  <cite>code formatting, variable names, magic numbers</cite></li>
+<li>Day 7 [3.W] (2/15):  <cite>Going about debugging, using your tools</cite></li>
+<li>Day 8 [4.M] (2/20):  <cite>Advanced Data Structures (multi dim lists)</cite></li>
+<li>Day 9 [4.W] (2/22):  <cite>Creating and using Objects (documentation day)</cite></li>
+<li>Day 10 [5.M] (2/27): <cite>Funcs</cite></li>
+<li>Day 11 [5.W] (2/29): <a href="#id3"><span class="problematic" id="id4">`Funcs Variables and Return`_</span></a>  (demo recursion, teach later)</li>
+<li>Day 12 [6.M] (3/5):  <cite>Objects</cite></li>
+<li>Day 13 [6.W] (3/7):  <a class="reference external" href="./day9.html">More With Objects</a></li>
+<li>Day 14 [7.M] (3/12): <a class="reference external" href="./day10.html">Inheritence</a></li>
+<li>Day 15 [7.W] (3/14): <a class="reference external" href="./day11.html">More Inheritence</a>   (midterm self eval)</li>
 <li><em>Spring Break</em></li>
-<li>Day 16 [8.M] (3/26):</li>
-<li>Day 17 [8.W] (3/28):</li>
-<li>Day 18 [9.M] (4/2):</li>
+<li>Day 16 [8.M] (3/26): <cite>Software Design: Going about solving problems: algorithm design</cite></li>
+<li>Day 17 [8.W] (3/28): <cite>Software Design: Breaking down the big problem: index card method</cite></li>
+<li>Day 18 [9.M] (4/2):  <cite>Pitch Day</cite></li>
 <li>XXX XX [9.W] (4/4):  <em>Advising day, no class</em></li>
-<li>Day 19 [10.M] (4/9):</li>
-<li>Day 20 [10.W] (4/11):</li>
-<li>Day 21 [11.M] (4/16): (last drop with 'w')</li>
-<li>Day 22 [11.W] (4/18):</li>
-<li>Day 23 [12.M] (4/23):</li>
-<li>Day 24 [12.W] (4/25):</li>
-<li>Day 25 [13.M] (4/30):</li>
-<li>Day 26 [13.W] (5/2):</li>
+<li>Day 19 [10.M] (4/9):  <cite>File Reading/Parsing</cite></li>
+<li>Day 20 [10.W] (4/11): <cite>Music and Images</cite></li>
+<li>Day 21 [11.M] (4/16):  (last drop with 'w')</li>
+<li>Day 22 [11.W] (4/18): ``</li>
+<li>Day 23 [12.M] (4/23): ``</li>
+<li>Day 24 [12.W] (4/25): ``</li>
+<li>Day 25 [13.M] (4/30): ``</li>
+<li>Day 26 [13.W] (5/2):  <cite>Showcase Day</cite></li>
+</ul>
+</blockquote>
+<p># recursion
+# trees, linked lists
+#   quad trees
+#   map/reduce filter etc
+#   libraries</p>
+</div>
+<div class="section" id="homeworks">
+<h1>Homeworks:</h1>
+<blockquote>
+<ul class="simple">
+<li>Week 0:  intro
+* Prj:     Setup and run examples</li>
+<li>Week 1:  Datatypes
+* Exc:     Basic Math, string concat, hello worlds, string formating
+* Prj:     Prissy Bot.  Simple read/resp</li>
+<li>Week 2:  Control Flow</li>
+<li>Week 3:  Advanced Datatypes</li>
+<li>Week 4:  Functions
+* Exc:
+* Adv:
+* Prj:
+* Adv:</li>
+<li>Week 5:  Objects</li>
+<li>Week 6:  Inheritence</li>
+<li>Week 7:  Making a full game</li>
+<li><em>Spring Break</em></li>
+<li>Week 8:</li>
+<li>Week 9:</li>
+<li>Week 10:</li>
+<li>Week 11:</li>
+<li>Week 12:</li>
+<li>Week 13:</li>
 </ul>
 </blockquote>
 </div>
@@ -358,11 +382,11 @@ ul.auto-toc {
 <blockquote>
 <ul class="simple">
 <li>Adv 1 [0.F] (1/27):  <a class="reference external" href="./adv1.html">Introduction and Setup Workshop</a></li>
-<li>Adv 2 [1.F] (2/3):  <a class="reference external" href="./adv2.html">Advanced strings, variables</a></li>
-<li>Adv 3 [2.F] (2/10):</li>
-<li>Adv 4 [3.F] (2/17):</li>
-<li>Adv 5 [4.F] (2/24):</li>
-<li>Adv 6 [5.F] (3/2):</li>
+<li>Adv 2 [1.F] (2/3):   <a class="reference external" href="./adv2.html">Advanced strings, variables</a></li>
+<li>Adv 3 [2.F] (2/10):  <a class="reference external" href="./adv3.html">List Comprehensions</a></li>
+<li>Adv 4 [3.F] (2/17):  ``</li>
+<li>Adv 5 [4.F] (2/24):  <a class="reference external" href="./adv4.html">Passing Functions and Decorators</a></li>
+<li>Adv 6 [5.F] (3/2):   <a class="reference external" href="./adv5.html">Operator Overloading</a></li>
 <li>Adv 7 [6.F] (3/9):</li>
 <li>Adv 8 [7.F] (3/16):</li>
 <li><em>Spring Break</em></li>
@@ -374,6 +398,15 @@ ul.auto-toc {
 <li>Adv 13 [13.F] (5/4):</li>
 </ul>
 </blockquote>
+</div>
+<div class="system-messages section">
+<h1>Docutils System Messages</h1>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">./lecture/README.rst</tt>, line 11); <em><a href="#id2">backlink</a></em></p>
+Unknown target name: &quot;datatypes and variables&quot;.</div>
+<div class="system-message" id="id3">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">./lecture/README.rst</tt>, line 19); <em><a href="#id4">backlink</a></em></p>
+Unknown target name: &quot;funcs variables and return&quot;.</div>
 </div>
 </div>
 </body>

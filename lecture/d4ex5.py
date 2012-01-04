@@ -29,17 +29,16 @@ pygame.display.flip()
 
 # while running
 while running:
-    while pygame.event.peek([KEYDOWN, QUIT, MOUSEBUTTONDOWN]):
-        event = pygame.event.poll()
-        if event.type == QUIT:
-            running = False
-        elif event.type == KEYDOWN and event.key == K_ESCAPE:
-            running = False
-        elif event.type == MOUSEBUTTONDOWN:
-            r = randrange(256)
-            g = randrange(256)
-            b = randrange(256)
-            screen.fill((r,g,b))
-            pygame.display.flip()
+    event = pygame.event.poll()
+    if event.type == QUIT:
+        running = False
+    elif event.type == KEYDOWN and event.key == K_ESCAPE:
+        running = False
+    elif event.type == MOUSEBUTTONDOWN:
+        r = randrange(256)
+        g = randrange(256)
+        b = randrange(256)
+        screen.fill((r,g,b))
+        pygame.display.flip()
 
 print "quitting"
