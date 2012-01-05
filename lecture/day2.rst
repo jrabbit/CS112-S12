@@ -24,6 +24,13 @@ Python Interpreter
     * 3 / 2.0 = 1.5
     * most of these will be covered in depth later
 
+
+Do Examples
+-----------------------
+things to do and turn in:
+ * ascii art
+ * 
+
 Python Programs
 -----------------------
 `See Example 1 <./d1ex1.py>`_

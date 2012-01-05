@@ -43,6 +43,8 @@ Example
   >>> 3 / 2.0
   1.5
 
+
+
 Converting
 --------------
  * ``int()`` and ``float()``
