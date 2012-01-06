@@ -4,7 +4,8 @@ import pygame
 from pygame.locals import *
 
 pygame.init()
-pygame.display.set_mode((640,480))
+screen_size = 640,480
+pygame.display.set_mode(screen_size)
 
 done = False
 while not done:

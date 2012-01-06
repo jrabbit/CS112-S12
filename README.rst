@@ -8,19 +8,19 @@ Basic Course:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  * Day 1 [0.W] (1/25):  `Introduction`
  * Day 2 [1.M] (1/30):  `Python`
- * Day 3 [1.W] (2/1):   `Datatypes and Variables`_
+ * Day 3 [1.W] (2/1):   `Datatypes and Variables`
  * Day 4 [2.M] (2/6):   `If and While` (last day to add people to independent study 2/7)
  * Day 5 [2.W] (2/8):   `For and Lists`
  * Day 6 [3.M] (2/13):  `code formatting, variable names, magic numbers`
  * Day 7 [3.W] (2/15):  `Going about debugging, using your tools`
- * Day 8 [4.M] (2/20):  `Advanced Data Structures (multi dim lists)`
- * Day 9 [4.W] (2/22):  `Creating and using Objects (documentation day)`
- * Day 10 [5.M] (2/27): `Funcs`
- * Day 11 [5.W] (2/29): `Funcs Variables and Return`_  (demo recursion, teach later)
+ * Day 8 [4.M] (2/20):  `Funcs`
+ * Day 9 [4.W] (2/22):  `Funcs Variables and Return`
+ * Day 10 [5.M] (2/27): `Advanced Data Structures (multi dim lists)`
+ * Day 11 [5.W] (2/29): `Creating and using Objects` (documentation day)
  * Day 12 [6.M] (3/5):  `Objects`
- * Day 13 [6.W] (3/7):  `More With Objects <./day9.html>`_ 
- * Day 14 [7.M] (3/12): `Inheritence <./day10.html>`_
- * Day 15 [7.W] (3/14): `More Inheritence <./day11.html>`_   (midterm self eval)
+ * Day 13 [6.W] (3/7):  `Inheritence`
+ * Day 14 [7.M] (3/12): 
+ * Day 15 [7.W] (3/14):   (midterm self eval)
  * *Spring Break*
  * Day 16 [8.M] (3/26): `Software Design: Going about solving problems: algorithm design`
  * Day 17 [8.W] (3/28): `Software Design: Breaking down the big problem: index card method`

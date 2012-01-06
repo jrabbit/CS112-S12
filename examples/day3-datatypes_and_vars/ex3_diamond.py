@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 s = " "
-c = raw_input("What are the dyamind blocks?  ")
+c = raw_input("What are the diamond blocks?  ")
 
 print 3*s, c
 print 2*s, c*3
