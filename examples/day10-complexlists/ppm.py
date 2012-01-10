@@ -13,7 +13,7 @@ class Ppm:
 
     def parse_ppm(self, filename):
         f = open(filename, 'r')
-        if f.readline().strip( not in ['P1', 'P2', 'P3']:
+        if f.readline().strip() not in ['P1', 'P2', 'P3']:
             raise NotImplementedError
         f.seek(0)
         for l in f:
